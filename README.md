@@ -17,7 +17,7 @@ It deletes temporary INSTALLATION FILES and UPDATE FILES of programs and games f
 
 # How to use?
 
-Just download the "CleanPC.bat", and double click on it!.
+Just download the "CleanPC.bat", and double click on it!
 
 If your PC have privillages problems, you may right click on it and run as administrator.
 
@@ -37,6 +37,6 @@ If you run it during any installation, the installation will most likely to fail
 
 
 
-# Notes:
+# Notes
 
 Tested on Windows XP, Vista, 7 and 10 (32 & 64 bit)
