@@ -33,3 +33,10 @@ This tool is SAFE & Guaranteed that it does not HARM your PC!, i've been using i
 Do NOT Run this tool while installing any program, game nor during software updates, your PC must be in idle state before you run it.
 
 If you run it during any installation, the installation will most likely to fail, and you may not have the option to reinstall!
+
+
+
+
+# Notes:
+
+Tested on Windows XP, Vista, 7 and 10 (32 & 64 bit)
