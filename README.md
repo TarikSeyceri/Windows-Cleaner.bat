@@ -8,6 +8,13 @@ Example: i tried it on my boss's computer in 2017, and it freed 30 Gigas! in his
 
 
 
+# What does this tool delete exactly?
+
+It removes temporary INSTALLATION FILES and UPDATE FILES of programs and games from your pc.
+
+
+
+
 # How to use?
 
 Just download the "CleanPC.bat", and double click on it!.
@@ -26,10 +33,3 @@ This tool is SAFE & Guaranteed that it does not HARM your PC!, i've been using i
 Do NOT Run this tool while installing any program, game nor during software updates, your PC must be in idle state before you run it.
 
 If you run it during any installation, the installation will most likely to fail, and you may not have the option to reinstall!
-
-
-
-
-# What does this tool delete exactly?
-
-It removes temporary INSTALLATION FILES and UPDATE FILES of programs and games from your pc.
