@@ -10,7 +10,7 @@ Example: i tried it on my boss's computer in 2017, and it freed 30 Gigas! in his
 
 # What does this tool delete exactly?
 
-It removes temporary INSTALLATION FILES and UPDATE FILES of programs and games from your pc.
+It deletes temporary INSTALLATION FILES and UPDATE FILES of programs and games from your pc.
 
 
 
