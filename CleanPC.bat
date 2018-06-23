@@ -1,3 +1,7 @@
+rem This script is written by Tarik Seyceri - 2018
+rem email: tarik@seyceri.info
+cls
+
 @echo off
 
 del /s /f /q %WinDir%\temp\*.*
