@@ -1,4 +1,4 @@
-rem This script is written by Tarik Seyceri - 2018
+rem This script was written by Tarik Seyceri - Published in 2018
 rem email: tarik@seyceri.info
 cls
 
@@ -22,4 +22,3 @@ md %Temp%
 md %AppData%\temp
 md %HomePath%\AppData\LocalLow\temp
 
-cls
