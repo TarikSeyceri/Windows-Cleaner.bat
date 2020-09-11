@@ -15,7 +15,7 @@ Example: i tried it on my boss's computer in 2016, and it freed nearly 30 Gigaby
 
 # How to use?
 
-Just download the "CleanWindows.bat", and right click on it then run as administrator.
+Just download the "Windows Cleaner.bat", and right click on it then run as administrator.
 
 This tool is SAFE & Guaranteed that it does not HARM your PC!, i've been using it for almost 10 Years!
 
