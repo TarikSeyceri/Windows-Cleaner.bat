@@ -9,7 +9,7 @@ IF %ERRORLEVEL% EQU 0 (
     echo Running..
 ) ELSE (
     echo You must run me as an Administrator. Exiting..
-	  echo.
+    echo.
     pause
     exit
 )
