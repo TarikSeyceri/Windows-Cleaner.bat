@@ -4,6 +4,18 @@ cls
 
 @echo off
 
+NET SESSION >nul 2>&1
+if %ERRORLEVEL% EQU 0 (
+    echo Running..
+) ELSE (
+    echo You must run me as an Administrator. Exiting..
+    echo.
+    pause
+    exit
+)
+
+echo.
+
 del /s /f /q %WinDir%\Temp\*.*
 del /s /f /q %WinDir%\Prefetch\*.*
 del /s /f /q %Temp%\*.*
