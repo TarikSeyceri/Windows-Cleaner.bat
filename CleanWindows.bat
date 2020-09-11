@@ -4,23 +4,23 @@ cls
 
 @echo off
 
-del /s /f /q %WinDir%\temp\*.*
+del /s /f /q %WinDir%\Temp\*.*
 del /s /f /q %WinDir%\Prefetch\*.*
 del /s /f /q %Temp%\*.*
-del /s /f /q %AppData%\temp\*.*
-del /s /f /q %HomePath%\AppData\LocalLow\temp\*.*
+del /s /f /q %AppData%\Temp\*.*
+del /s /f /q %HomePath%\AppData\LocalLow\Temp\*.*
 
-rd /s /q %WinDir%\temp
+rd /s /q %WinDir%\Temp
 rd /s /q %WinDir%\Prefetch
 rd /s /q %Temp%
-rd /s /q %AppData%\temp
-rd /s /q %HomePath%\AppData\LocalLow\temp
+rd /s /q %AppData%\Temp
+rd /s /q %HomePath%\AppData\LocalLow\Temp
 
-md %WinDir%\temp
+md %WinDir%\Temp
 md %WinDir%\Prefetch
 md %Temp%
-md %AppData%\temp
-md %HomePath%\AppData\LocalLow\temp
+md %AppData%\Temp
+md %HomePath%\AppData\LocalLow\Temp
 
 takeown /F %SYSTEMDRIVE%\Windows.old\* /R /A
 echo Y | cacls %SYSTEMDRIVE%\Windows.old\*.* /T /grant administrators:F
