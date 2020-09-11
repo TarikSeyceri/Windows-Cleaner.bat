@@ -20,7 +20,7 @@ You can put this file in the StartUp folder in Start Menu, to make it start auto
 This tool is SAFE & Guaranteed that it does not HARM your PC!, i've been using it for almost 10 Years!
 
 
-# Warnings!
+# Warning!
 
 Do NOT Run this tool while installing any program, game nor during software updates, your PC must be in idle state before you run it.
 
