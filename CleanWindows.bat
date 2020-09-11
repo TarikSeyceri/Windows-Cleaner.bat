@@ -34,7 +34,7 @@ md %Temp%
 md %AppData%\Temp
 md %HomePath%\AppData\LocalLow\Temp
 
-takeown /F %SYSTEMDRIVE%\Windows.old\* /R /A
+takeown /F %SYSTEMDRIVE%\Windows.old\* /R /A /D Y
 echo Y | cacls %SYSTEMDRIVE%\Windows.old\*.* /T /grant administrators:F
 echo Please wait, this may take a while.
 rmdir /S /Q %SYSTEMDRIVE%\Windows.old\
