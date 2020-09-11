@@ -24,7 +24,7 @@ md %HomePath%\AppData\LocalLow\temp
 
 takeown /F %SYSTEMDRIVE%\Windows.old\* /R /A
 echo Y | cacls %SYSTEMDRIVE%\Windows.old\*.* /T /grant administrators:F
-echo "Please wait this might take a while."
+echo "Please wait, this may take a while."
 rmdir /S /Q %SYSTEMDRIVE%\Windows.old\
 
 echo.
