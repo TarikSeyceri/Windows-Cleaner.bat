@@ -4,6 +4,7 @@ cls
 
 @echo off
 
+rem Check If User Has Admin Privileges
 timeout /t 1 /nobreak > NUL
 openfiles > NUL 2>&1
 if %errorlevel%==0 (
@@ -61,4 +62,5 @@ echo.
 echo Windows Clean Up Done!, You can exit by pressing any key.
 echo.
 
-pause
+pause > NUL
+exit
