@@ -3,8 +3,6 @@ An executable cmd batch script that Cleans Windows from unneeded temporary files
 
 If you've been using Windows for a long time without cleaning it up, or you don't know how to clean it, you will be amased of how much space this tool can free for you!
 
-Example: i tried it on my boss's computer in 2016, and it freed nearly 30 Gigabyte! in his pc's (C) Drive, it also made his PC faster!
-
 
 # What does this tool delete exactly?
 
