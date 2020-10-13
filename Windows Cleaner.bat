@@ -52,12 +52,6 @@ md %Temp%
 md %AppData%\Temp
 md %HomePath%\AppData\LocalLow\Temp
 
-rem Edit Windows.old Folder Privileges and Deleting It
-takeown /F %SYSTEMDRIVE%\Windows.old\* /R /A /D Y
-echo Y| cacls %SYSTEMDRIVE%\Windows.old\*.* /T /G administrators:F /C
-echo Please wait, this may take a while.
-rmdir /S /Q %SYSTEMDRIVE%\Windows.old\
-
 echo.
 echo Windows Clean Up Done!, You can exit by pressing any key.
 echo.
