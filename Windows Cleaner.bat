@@ -52,6 +52,15 @@ md %Temp%
 md %AppData%\Temp
 md %HomePath%\AppData\LocalLow\Temp
 
+rem Delete Icons cache to fix icons display problem (need to restart explorer.exe)
+TASKKILL /f /im explorer.exe
+del /s /f /q %userprofile%\AppData\Local\IconCache.db /a
+del /s /f /q %userprofile%\AppData\Local\Microsoft\Windows\Explorer\iconcache*.*
+del /s /f /q %userprofile%\AppData\Local\Microsoft\Windows\Explorer\thumbcache*.* /a
+START explorer.exe
+
+
+
 echo.
 echo Windows Clean Up Done!, You can exit by pressing any key.
 echo.
